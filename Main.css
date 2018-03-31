@@ -4,10 +4,11 @@
   background-color: #cccccc;
   top: 0px;
   left: 0px;
+  text-align: center;
+  margin: 0 auto;
 {
 .TNR40{
   font-size: 40px;
   font-weight: 900;
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
+  font-family: "Times New Roman", Times, serif; 
 }
