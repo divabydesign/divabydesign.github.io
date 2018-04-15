@@ -1,4 +1,4 @@
-#underconstruction {
+.underconstruction {
   width: 100%;
   height: 5%;
   padding: 36px;
@@ -8,13 +8,13 @@
   text-align: center;
   margin: -8px;
 {
-#TBT {
+.TBT {
   font-size: 100px;
   font-weight: 900;
   font-family: "Times New Roman", Times, serif; 
   font-color: "white";
 }
-#page {
+.page {
   width: 100%;
   height: 100%;
 }
