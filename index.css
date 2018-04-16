@@ -31,11 +31,6 @@ html, body {
   margin: 0px;
   border: 0px;
 }
-.TBI1 {
-  left: 50%;
-  width: 107.219198813px;
-  height: 63.391px;
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
+.TBLI:before {
+   content:url(TBLI.png);
 }
