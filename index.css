@@ -18,6 +18,7 @@ html, body {
 img.headerimg {
   position: sticky;
   top: 0;
+  overflow: hidden;
 }
 ul {
   list-style-type: none;
