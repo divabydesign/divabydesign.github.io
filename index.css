@@ -4,7 +4,7 @@ html, body {
   padding: 0px;
   margin: 0px;
   border: 0px;
-  font-size: 40px;
+  font-size: 20px;
 }
 .page {
   width: 100%;
@@ -27,6 +27,7 @@ p.headerp {
   padding: 0px;
   margin: 0px;
   border: 0px;
+  font-size: 70px;
 }
 ul {
   list-style-type: none;
