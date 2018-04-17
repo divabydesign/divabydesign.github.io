@@ -15,15 +15,10 @@ html, body {
 }
 .header {
 }
-img.headerimg {
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-}
 p.headerp {
   position: absolute;
   top: 1%;
-  left: 100px;
+  left: 120px;
   padding: 0px;
   margin: 0px;
   border: 0px;
