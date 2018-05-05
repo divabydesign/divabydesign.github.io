@@ -50,7 +50,7 @@ li a:hover {
   background-color: #E313BD;
 }
 
-.active {
+li.active {
   background-color: #9900FF;
 }
 * {box-sizing:border-box}
