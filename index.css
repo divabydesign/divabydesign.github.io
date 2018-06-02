@@ -55,7 +55,7 @@ li a:hover {
 }
 
 a.active {
-  border-style: solid;
+  
   background: linear-gradient(rgb(255, 0, 204), rgb(153, 0, 255));
 }
 
