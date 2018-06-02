@@ -33,7 +33,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #9900FF;
   position: sticky;
   top: 0;
 }
@@ -55,7 +55,7 @@ li a:hover {
 }
 
 a.active {
-  background-color: #9900FF;
+  background: linear-gradient(rgb(153, 0, 255), rgb(255, 0, 204));
 }
 
 * {
@@ -144,4 +144,9 @@ a.active {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+div.panel1 {
+  height: 100px
+  width: 100px
 }
