@@ -27,6 +27,8 @@ p.headerp {
   border: 0px;
   font-size: 50px;
   color: rgb(255, 0, 204);
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
   /* background: linear-gradient(rgb(153, 0, 255), rgb(255, 0, 204)); */
 }
 
