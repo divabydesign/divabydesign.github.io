@@ -19,7 +19,6 @@ html, body {
 }
 
 p.headerp {
-    position: sticky;
   top: 0.5%;
   left: 120px;
   padding: 0px;
