@@ -17,9 +17,11 @@ html, body {
 
 /* TODO */.header {
 }
-
-p.headerp {
+div.header {
   position: sticky;
+}
+p.headerp {
+  position: absolute;
   top: 0.5%;
   left: 120px;
   padding: 0px;
