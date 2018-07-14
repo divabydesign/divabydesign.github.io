@@ -30,6 +30,8 @@ H1.HT {
 div.table {
   display: table;   
   margin: 0 auto;
+  top: 20%;
+  position: relative;
 }
 
 a#active {
@@ -39,15 +41,22 @@ a#active {
 a.link1 {
   text-align: center;
   margin-right: 20px;
+  color: white;
 }
 
 a.link2 {
   text-align: center;
+  color: white;
 }
 
 a.link3 {
   text-align: center;
   margin-left: 20px;
+  color: white;
+}
+
+a:hover {
+  color: #be79f2;
 }
 
 .slideshow-container {
