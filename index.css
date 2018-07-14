@@ -42,19 +42,17 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #444141;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #E313BD;
+  color: #be79f2;
 }
 
 a.activei {
-  border-right-style: solid;
-  background: linear-gradient(rgb(153, 0, 255), rgb(255, 0, 204));
+  color: #be79f2;
 }
 
 * {
