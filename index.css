@@ -32,9 +32,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #9900FF;
-  position: sticky;
-  top: 0;
+  position: relative
+  top: 20%;
 }
 
 li {
