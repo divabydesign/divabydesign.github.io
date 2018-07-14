@@ -27,6 +27,11 @@ H1.HT {
   position: relative;
 }
 
+div.table {
+  display: table;   
+	margin: 0 auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
