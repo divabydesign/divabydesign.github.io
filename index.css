@@ -43,6 +43,7 @@ li {
 li a {
   display: block;
   color: #fbfafc;
+  position: relative;
   margin-right: 10%;
   text-align: center;
   text-decoration: none;
