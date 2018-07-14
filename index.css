@@ -32,28 +32,22 @@ div.table {
   margin: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  float: left;
-  margin-right: 10%;
-}
-
-li a {
-  color: #fbfafc;
-  text-decoration: none;
-}
-
-li a:hover {
+a#active {
   color: #be79f2;
 }
 
-a.activei {
-  color: #be79f2;
+a.link1 {
+  text-align: center;
+  margin-right: 20px;
+}
+
+a.link2 {
+  text-align: center;
+}
+
+a.link3 {
+  text-align: center;
+  margin-left: 20px;
 }
 
 .slideshow-container {
