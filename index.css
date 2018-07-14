@@ -38,24 +38,21 @@ a#active {
   color: #be79f2;
 }
 
-a.link1 {
-  text-align: center;
+a.linkleft {
   margin-right: 40px;
-  color: white;
-  text-decoration: none;
 }
 
-a.link2 {
-  text-align: center;
-  color: white;
-  text-decoration: none;
+a.linkmid {
 }
 
-a.link3 {
-  text-align: center;
+a.linkright {
   margin-left: 40px;
+}
+
+a.headerlist {
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 a:hover {
