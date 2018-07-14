@@ -39,20 +39,21 @@ a#active {
 }
 
 a.linkleft {
-  margin-right: 40px;
+  margin-right: 70px;
 }
 
 a.linkmid {
 }
 
 a.linkright {
-  margin-left: 40px;
+  margin-left: 70px;
 }
 
 a.headerlist {
   color: white;
   text-decoration: none;
   text-align: center;
+  font-size: 20px;
 }
 
 a:hover {
