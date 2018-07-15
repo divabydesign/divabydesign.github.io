@@ -82,17 +82,15 @@ div.footer {
 img.Insta {
   height: 50px; 
   width: 50px;
-  display: block;
   position: relative;
   top: 10%;
-  left: 55%
+  left: 60%
 }
 
 img.fB {
   height: 50px; 
   width: 50px;
-  display: block;
   position: relative;
   top: 10%;
-  left: 45%
+  left: 40%
 }
