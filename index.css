@@ -158,6 +158,10 @@ div.text {
   top: 0%;
   left: 0%;
 }
+img.hpp {
+  width: 200px;
+  height: 200px;
+}
 /* end of page footer */
 div.footer {
   width: 100%;
