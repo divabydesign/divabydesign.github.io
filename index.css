@@ -92,6 +92,8 @@ div.nav1 {
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
   width: 100%;
+  text-decoration: none;
+  color: black;
 }
 #active {
   font-color: purple;
