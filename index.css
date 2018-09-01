@@ -48,8 +48,8 @@ div.content{
   top: 20%;
   left: 0%;
 }
-/* container */
-div.container{
+/* container for text to make my life easier */
+div.textcontainer{
   width: 60%;
   height: 80%;
   padding: 0px;
@@ -65,8 +65,8 @@ div.text {
   width: 60%;
   height: 80%;
   padding: 0px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 0%;
+  margin-right: 0%;
   border: 2px solid red;
   position: absolute;
   top: 20%;
