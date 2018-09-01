@@ -29,9 +29,9 @@ div.header {
 /* Title */
 div.title {
   width: 40%;
-  height: 20%;
+  height: 100%;
   padding: 0px;
-  margin: 0px;
+  margin: 0 auto;
   border: 2px solid red;
   position: absolute;
   top: 0%;
@@ -50,27 +50,27 @@ p#title {
 }
 /*container for navbar*/
 div.navbarcontainer {
-  width: 20%;
-  height: 10%;
+  width: 60%;
+  height: 30%;
   padding: 0px;
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 20%;
+  margin-right: 20%;
   border: 2px solid blue;
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 50%;
+  left: 0%;
 }
 /*the navbar*/
 div.navbar {
-  width: 20%;
-  height: 10%;
+  width: 100%;
+  height: 100%;
   padding: 0px;
   margin-left: 0%;
   margin-right: 0%;
   border: 2px solid blue;
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 0%;
+  left: 0%;
 }
 /* possible expansion to add things on side? */
 div.content{
@@ -86,26 +86,26 @@ div.content{
 /* container for text to make my life easier */
 div.textcontainer{
   width: 60%;
-  height: 60%;
+  height: 100%;
   padding: 0px;
   margin-left: 20%;
   margin-right: 20%;
   border: 2px solid red;
   position: absolute;
-  top: 20%;
-  left: 0%;  
+  top: 0%;
+  left: 0%;
 }
 /* main media area */
 div.text {
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   padding: 0px;
   margin-left: 0%;
   margin-right: 0%;
   border: 2px solid red;
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 0%;
+  left: 0%;
 }
 /* end of page footer */
 div.footer {
