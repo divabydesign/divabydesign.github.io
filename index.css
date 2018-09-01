@@ -42,11 +42,34 @@ p#title {
   font-size: 3.13vw;
   margin:  0%;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
   width: 100%;
+}
+/*container for navbar*/
+div.navbarcontainer {
+  width: %;
+  height: 20%;
+  padding: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 2px solid blue;
+  position: absolute;
+  top: 0%;
+  left: 30%;
+}
+/*the navbar*/
+div.navbar {
+  width: 40%;
+  height: 20%;
+  padding: 0px;
+  margin: 0px;
+  border: 2px solid blue;
+  position: absolute;
+  top: 0%;
+  left: 30%;
 }
 /* possible expansion to add things on side? */
 div.content{
