@@ -83,6 +83,16 @@ div.nav1 {
   top: 0%;
   left: 0%;
 }
+a#nav1 {
+  font-size: 1.04vw;
+  margin: 0%;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
 div.nav2 {
   width: 33.3%;
   height: 100%;
