@@ -37,6 +37,10 @@ div.title {
   top: 0%;
   left: 30%;
 }
+/* id to specify how page title should look */
+p#title {
+  font-size: 3.13vw
+}
 /* possible expansion to add things on side? */
 div.content{
   width: 100%;
