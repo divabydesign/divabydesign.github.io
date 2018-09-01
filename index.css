@@ -98,6 +98,9 @@ div.nav1 {
 #active {
   color: purple;
 }
+a:hover {
+  color: purple;
+}
 div.nav2 {
   width: 33.3%;
   height: 100%;
