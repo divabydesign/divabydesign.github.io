@@ -39,7 +39,14 @@ div.title {
 }
 /* id to specify how page title should look */
 p#title {
-  font-size: 3.13vw
+  font-size: 3.13vw;
+  margin:  0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  width: 100%;
 }
 /* possible expansion to add things on side? */
 div.content{
