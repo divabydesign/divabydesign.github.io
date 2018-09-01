@@ -5,16 +5,6 @@ html, body {
   margin: 0px;
   border: 2px solid red;
 }
-/* everything */
-div.page {
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-  border: 2px solid red;
-  top: 0%;
-  left: 0%;
-}
 /* abit tight for space */
 div.header {
   width: 100%;
