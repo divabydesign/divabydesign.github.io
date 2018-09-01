@@ -83,7 +83,7 @@ div.nav1 {
   top: 0%;
   left: 0%;
 }
-a#nav1 {
+a.navlink {
   font-size: 1.04vw;
   margin: 0%;
   position: absolute;
