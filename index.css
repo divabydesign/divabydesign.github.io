@@ -93,6 +93,9 @@ div.nav1 {
   text-align: center;
   width: 100%;
 }
+#active {
+  font-color: purple;
+}
 div.nav2 {
   width: 33.3%;
   height: 100%;
