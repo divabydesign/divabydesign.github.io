@@ -66,9 +66,10 @@
 		color: #181818;
 		font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
 		font-weight: normal;
-		font-family: 'PT Sans', sans-serif;
+		/* font-family: 'PT Sans', sans-serif; */
 		/* font-family: 'PT Sans', sans-serif; */
 		/* font-family: 'Dosis', sans-serif; */
+		font-family: 'Slabo 27px', serif;
 		}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 {font-size: 46px;line-height: 50px;margin-bottom: 14px;/* text-align:  center; */}
@@ -99,7 +100,7 @@
 
 /* #Links
 ================================================== */
-	a, a:visited {color: #333;text-decoration: underline;outline: 0;font-family: 'Dosis', sans-serif;}
+	a, a:visited {color: #333;text-decoration: underline;outline: 0;font-family: 'Slabo 27px', serif;}
 	a:hover, a:focus { color: #000; }
 	p a, p a:visited { line-height: inherit; }
 	
