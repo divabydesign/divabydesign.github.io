@@ -12,7 +12,6 @@ body {
 }
 #title {
  background-color: #43b1e0;
- position: fixed;
  display: inline-block;
  width: 960px;
  height: 10%;
