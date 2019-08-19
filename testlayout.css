@@ -26,4 +26,14 @@ body {
  height: 60px;
  margin-top: 20px;
  position: sticky;
+ top: 10px;
+}
+#headimg {
+ background-color: #43b1e0;
+ display: inline-block;
+ width: 960px;
+ height: 60px;
+ margin-top: 20px;
+ position: sticky;
+ top: 20px;
 }
