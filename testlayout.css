@@ -14,8 +14,16 @@ body {
  background-color: #43b1e0;
  display: inline-block;
  width: 960px;
- height: 10%;
+ height: 110px;
  top: 2%;
  left: 0%;
+ position: sticky;
+}
+#nav {
+ background-color: #43b1e0;
+ display: inline-block;
+ width: 960px;
+ height: 60px;
+ margin-top: 20px;
  position: sticky;
 }
