@@ -15,6 +15,7 @@ body {
  display: inline-block;
  width: 960px;
  height: 10%;
- top: 1%;
+ top: 2%;
  left: 0%;
+ position: sticky;
 }
