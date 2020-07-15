@@ -23,4 +23,10 @@ function resize() {
   
   top += 30 + $("#3stext").height();
   $("#ctext").css({"top": top + "px"});
+  
+  let height = 60 + $("#flogo").height();
+  $("#footer").css({"height": height + "px"});
+  
+  let top = $("#ncontent").height() - height
+  $("#footer").css({"top": top + "px"});
 }
