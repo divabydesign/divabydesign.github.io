@@ -65,7 +65,7 @@ p.ntext {
   
   color: #242424;
   
-  &:after{
+  &::after{
     content: '';
     position: absolute;
     bottom: 0;
@@ -78,9 +78,9 @@ p.ntext {
     transition: transform .25s ease;
   }
   
-  &:hover{
+  &::hover{
     
-    &:after{
+    &::after{
       transform: scaleX(0);
     }
   }
