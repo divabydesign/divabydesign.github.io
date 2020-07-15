@@ -131,7 +131,15 @@ img#flogo {
   background-color: #242424;
 }
 
-#pcontent {}
+#pcontent {
+  position: absolute;
+  
+  left: 15%;
+  
+  width: 85%;
+  height: auto;
+}
+
 p#title {}
 p#slogan {}
 img#himage {}
