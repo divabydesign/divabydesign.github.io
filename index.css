@@ -180,3 +180,28 @@ img#himage {
   width: 76%;
   height: auto;
 }
+
+p#header {
+  position: absolute;
+  
+  left: 60px;
+    
+  line-height: 30px;
+  
+  font-size: 30px;
+  font-weight: bold;
+  
+  color: #242424;
+}
+
+p#para {
+  position: absolute;
+  
+  left: 60px;
+    
+  line-height: 15px;
+  
+  font-size: 15px;
+  
+  color: #242424;
+}
