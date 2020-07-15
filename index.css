@@ -101,7 +101,17 @@ a:hover:after {
 #1fbar {}
 #2fbar {}
 .fbar {}
-img#flogo {}
+
+img#flogo {
+  position: absolute;
+  
+  left: 42.5%;
+  Top: 30px;
+    
+  width: 15%;
+  height: auto;
+}
+
 #divider {}
 #pcontent {}
 p#title {}
