@@ -45,10 +45,22 @@ img#logo {
   height: auto;
 }
 
-p#htext {
-  font-size: 15px;
+p#htext {}
+
+p#stext {}
+#atdiv {}
+p#atext {}
+p#1stext {}
+p#2stext {}
+p#3stext {}
+p#ctext {}
+
+p.ntext {
+  font-size: 30px;
   
   font-weight: bold;
+  
+  text-decoration: none;
   
   &:after{
     content: '';
@@ -71,14 +83,6 @@ p#htext {
   }
 }
 
-p#stext {}
-#atdiv {}
-p#atext {}
-p#1stext {}
-p#2stext {}
-p#3stext {}
-p#ctext {}
-p.ntext {}
 #footer {}
 #1fbar {}
 #2fbar {}
