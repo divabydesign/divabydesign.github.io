@@ -30,7 +30,7 @@ function resize() {
   let footertop = $("#ncontent").height() - height
   $("#footer").css({"top": footertop + "px"});
   
-  let left = ($("#ncontent").height() / 100) * 7.5;
+  let left = ($("#ncontent").width() / 100) * 7.5;
   $("#1fbar").css({"left": left + "px"});
   
   left += left + $("#1fbar").width() + $("#flogo").width()
