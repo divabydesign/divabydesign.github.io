@@ -32,7 +32,7 @@ p, a {
 }
 
 #nav {
-  position: absolute;
+  position: relative;
   
   left: 15px;
 }
