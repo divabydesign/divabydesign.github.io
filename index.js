@@ -51,6 +51,9 @@ function resize() {
   let imgtop = slogantop + 10 + $("#slogan").height();
   $("#himage").css({"top": imgtop + "px"});
   
+  let imgwidth = $("#pcontent").width() - 120;
+  $("#himage").css({"width": imgwidth + "px"});
+  
   let texttop = imgtop + $("#himage").height() + 10;
   $("#text").css({"top": texttop + "px"});
   
