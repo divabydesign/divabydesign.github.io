@@ -182,10 +182,6 @@ img#himage {
 }
 
 p#header {
-  position: absolute;
-  
-  left: 60px;
-    
   line-height: 30px;
   
   font-size: 30px;
@@ -194,14 +190,10 @@ p#header {
   color: #242424;
 }
 
-p#para {
-  position: absolute;
+p#para { 
+  line-height: 25px;
   
-  left: 60px;
-    
-  line-height: 15px;
-  
-  font-size: 15px;
+  font-size: 25px;
   
   color: #242424;
 }
