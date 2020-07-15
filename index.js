@@ -41,17 +41,16 @@ function resize() {
   $("#2fbar").css({"top": fbartop + "px"});
   
   let pcontentleft = $("#ncontent").width() + 5;
-  //let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
+  let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
   $("#pcontent").css({"left": pcontentleft + "px"});
-  //$("#pcontent").css({"width": pcontentwidth + "px"});
+  $("#pcontent").css({"width": pcontentwidth + "px"});
   
   let slogantop = 75 + $("#title").height();
   $("#slogan").css({"top": slogantop + "px"});
   
   let imgtop = slogantop + 10 + $("#slogan").height();
-  $("#himage").css({"top": imgtop + "px"});
-  
   let imgwidth = $("#pcontent").width() - 120;
+  $("#himage").css({"top": imgtop + "px"});
   $("#himage").css({"width": imgwidth + "px"});
   
   let texttop = imgtop + $("#himage").height() + 10;
