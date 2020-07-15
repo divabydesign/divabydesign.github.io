@@ -59,10 +59,11 @@ p#ctext {}
 
 p.ntext {
   font-size: 30px;
-  
   font-weight: bold;
   
   text-decoration: none;
+  
+  color: #242424;
   
   &:after{
     content: '';
