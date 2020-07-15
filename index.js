@@ -53,4 +53,7 @@ function resize() {
   
   let texttop = imgtop + $("#himage").height() + 10;
   $("#text").css({"top": texttop + "px"});
+  
+  texttop = 10 + $("#header").height();
+  $("#para").css({"top": texttop + "px"});
 }
