@@ -11,6 +11,8 @@ p {
   margin: 0;
   
   font-family: "LeaugeSpartan";
+  
+  text-decoration: underline;
 }
 
 #content {
