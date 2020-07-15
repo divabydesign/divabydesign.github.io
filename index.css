@@ -137,6 +137,21 @@ img#flogo {
   height: auto;
 }
 
-p#title {}
-p#slogan {}
+p#title {
+  position: absolute;
+  
+  font-size: 60px;
+  font-weight: bold;
+  
+  color: #242424;
+}
+
+p#slogan {
+  position: absolute;
+  
+  font-size: 30px;
+  
+  color: #242424;
+}
+
 img#himage {}
