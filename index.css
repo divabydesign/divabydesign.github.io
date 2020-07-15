@@ -100,7 +100,14 @@ a:hover:after {
 
 #1fbar {}
 #2fbar {}
-.fbar {}
+
+.fbar {
+  position: absolute;
+  
+  width: 27.5%;
+  
+  background-color: #242424;
+}
 
 img#flogo {
   position: absolute;
@@ -112,7 +119,15 @@ img#flogo {
   height: auto;
 }
 
-#divider {}
+#divider {
+  position: absolute;
+  
+  left: 15%;
+  
+  width: 5px;
+  height: 100%;
+}
+
 #pcontent {}
 p#title {}
 p#slogan {}
