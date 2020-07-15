@@ -4,5 +4,5 @@ function load() {
 
 function resize() {
   let navtop = 90 + $("#logo").height();
-  $("#logo").css({"top": navtop + "px"});
+  $("#nav").css({"top": navtop + "px"});
 }
