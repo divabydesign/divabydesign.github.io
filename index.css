@@ -92,7 +92,12 @@ a:hover:after {
   left: 0;
 }
 
-#footer {}
+#footer {
+  position: absolute;
+  
+  width: 100%;
+}
+
 #1fbar {}
 #2fbar {}
 .fbar {}
