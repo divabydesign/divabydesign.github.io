@@ -44,4 +44,7 @@ function resize() {
   let pcontentwidth = ($("content").width() / 100) * 85 - 5
   $("#pcontent").css({"left": pcontentleft + "px"});
   $("#pcontent").css({"width": pcontentwidth + "px"});
+  
+  let slogantop = 75 + $("#title").height() 
+  $("#slogan").css({"top": slogantop + "px"});
 }
