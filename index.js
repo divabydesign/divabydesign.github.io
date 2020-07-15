@@ -33,6 +33,6 @@ function resize() {
   let left = ($("#ncontent").width() / 100) * 7.5;
   $("#1fbar").css({"left": left + "px"});
   
-  left += left + $("#1fbar").width() + $("#flogo").width()
+  left = ($("#ncontent").width() / 100) * 65;
   $("#2fbar").css({"left": left + "px"});
 }
