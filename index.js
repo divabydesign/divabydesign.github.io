@@ -47,4 +47,7 @@ function resize() {
   
   let slogantop = 75 + $("#title").height() 
   $("#slogan").css({"top": slogantop + "px"});
+  
+  let imgtop = slogantop + 10 + $("#slogan").height()
+  $("#himage").css({"top": imgtop + "px"});
 }
