@@ -39,4 +39,9 @@ function resize() {
   let fbartop = ($("#footer").height() / 2) - 2.5;
   $("#1fbar").css({"top": fbartop + "px"});
   $("#2fbar").css({"top": fbartop + "px"});
+  
+  let pcontentleft = $("#ncontent").width() + 5
+  let pcontentwidth = ($("content").width() / 100) * 85 - 5
+  $("#pcontent").css({"left": pcontentleft + "px"});
+  $("#pcontent").css({"width": pcontentwidth + "px"});
 }
