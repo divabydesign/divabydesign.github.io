@@ -61,27 +61,27 @@ p.ntext {
   font-size: 30px;
   font-weight: bold;
   
-  text-decoration: none;
-  
   color: #242424;
   
-  &::after{
-    content: '';
-    position: absolute;
+  &:after{
+    background: none repeat scroll 0 0 transparent;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0.1em;
-    min-height: 1px;
-    background-color: currentColor;
-    transform-origin: right;
-    transition: transform .25s ease;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #242424;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
   }
   
-  &::hover{
+  &:hover{
     
-    &::after{
-      transform: scaleX(0);
+    &:after{
+      
+      width: 100%; 
+      left: 0;
     }
   }
 }
