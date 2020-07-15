@@ -123,10 +123,12 @@ img#flogo {
 #divider {
   position: absolute;
   
-  left: 15%;
+  left: 100%;
   
   width: 5px;
   height: 100%;
+  
+  background-color: #242424;
 }
 
 #pcontent {}
