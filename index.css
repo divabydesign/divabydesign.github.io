@@ -7,10 +7,12 @@ body {
   height: 100%;
 }
 
-p {
+p, a {
   margin: 0;
   
   font-family: "LeaugeSpartan";
+  
+  text-decoration: none;
 }
 
 #content {
@@ -45,24 +47,23 @@ img#logo {
   height: auto;
 }
 
-p#htext {}
-
-p#stext {}
+a#htext {}
+a#stext {}
 #atdiv {}
-p#atext {}
-p#1stext {}
-p#2stext {}
-p#3stext {}
-p#ctext {}
+a#atext {}
+a#1stext {}
+a#2stext {}
+a#3stext {}
+a#ctext {}
 
-p.ntext {
+a.ntext {
   font-size: 30px;
   font-weight: bold;
   
   color: #242424;
 }
 
-p.ntext:after {
+a:after {
   background: none repeat scroll 0 0 transparent;
   content: "";
   display: block;
@@ -74,7 +75,7 @@ p.ntext:after {
   width: 0;
 }
 
-p.ntext:hover:after {
+a:hover:after {
   width: 100%; 
   left: 0;
 }
