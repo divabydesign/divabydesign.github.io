@@ -171,3 +171,12 @@ img#himage {
   width: 76%;
   height: auto;
 }
+
+#text {
+  position: absolute;
+  
+  left: 60px;
+  
+  width: 76%;
+  height: auto;
+}
