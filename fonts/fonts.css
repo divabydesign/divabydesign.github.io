@@ -1,0 +1,10 @@
+@font-face {
+  font-family: LeaugeSpartan;
+  src: url(LeagueSpartan-Regular.woff);
+}
+
+@font-face {
+  font-family: LeaugeSpartan;
+  src: url(LeagueSpartan-Bold.woff);
+  font-weight: bold;
+}
