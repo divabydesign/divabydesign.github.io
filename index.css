@@ -54,9 +54,20 @@ a#atext {}
 a#1stext {}
 a#2stext {}
 a#3stext {}
+
+a.nstext {
+  position: absolute;
+  
+  font-size: 20px;
+  
+  color: #242424;
+}
+
 a#ctext {}
 
 a.ntext {
+  position: absolute;
+  
   font-size: 30px;
   font-weight: bold;
   
