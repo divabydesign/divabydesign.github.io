@@ -45,6 +45,6 @@ function resize() {
   $("#pcontent").css({"left": pcontentleft + "px"});
   $("#pcontent").css({"width": pcontentwidth + "px"});
   
-  let slogantop = 75 + $("#title").line-height() 
+  let slogantop = 75 + $("#title").height() 
   $("#slogan").css({"top": slogantop + "px"});
 }
