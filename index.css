@@ -163,4 +163,11 @@ p#slogan {
   color: #242424;
 }
 
-img#himage {}
+img#himage {
+  position: absolute;
+  
+  left: 60px;
+  
+  width: 76%;
+  height: auto;
+}
