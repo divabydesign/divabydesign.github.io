@@ -136,7 +136,7 @@ img#flogo {
 
   height: 100%;
   
-  overflow: scroll;
+  overflow: auto;
 }
 
 p#title {
