@@ -140,6 +140,9 @@ img#flogo {
 p#title {
   position: absolute;
   
+  left: 60px;
+  top: 60px;
+  
   font-size: 60px;
   font-weight: bold;
   
@@ -148,6 +151,8 @@ p#title {
 
 p#slogan {
   position: absolute;
+  
+  left: 60px;
   
   font-size: 30px;
   
