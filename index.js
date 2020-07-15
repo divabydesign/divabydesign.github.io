@@ -42,6 +42,7 @@ function resize() {
   
   let pcontentleft = $("#ncontent").width() + 5;
   let pcontentwidth = ($("content").width() / 100) * 85 - 5;
+  console.log(pcontentwidth);
   $("#pcontent").css({"left": pcontentleft + "px"});
   $("#pcontent").css({"width": pcontentwidth + "px"});
   
