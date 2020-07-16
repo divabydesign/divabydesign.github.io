@@ -85,3 +85,11 @@ p#nhead {}
 #b7 {}
 #b8 {}
 #b9 {}
+
+p.shoptiletitle {
+  line-height: 30px;
+  
+  font-size: 30px;
+  
+  color: #242424;
+}
