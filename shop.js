@@ -27,7 +27,7 @@ function resize() {
   let height = 60 + $("#flogo").height();
   $("#footer").css({"height": height + "px"});
   
-  let footertop = $("#ncontent").height() - height
+  let footertop = $("#ncontent").height() - height;
   $("#footer").css({"top": footertop + "px"});
   
   let left = ($("#ncontent").width() / 100) * 7.5;
@@ -44,4 +44,23 @@ function resize() {
   let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
   $("#pcontent").css({"left": pcontentleft + "px"});
   $("#pcontent").css({"width": pcontentwidth + "px"});
+  
+  let shopcontainerwidth = $("#pcontent").width() - 120;
+  let shopcontainerheighte = $("#pcontent").height() - 120 - $("#ehead").height();
+  let shopcontainerheightn = $("#pcontent").height() - 120 - $("#nhead").height();
+  let shopcontainerheightb = $("#pcontent").height() - 120 - $("#bhead").height();
+  $("#erings").css({"width": shopcontainerwidth + "px"});
+  $("#erings").css({"height": shopcontainerheighte + "px"});
+  $("#necklaces").css({"width": shopcontainerwidth + "px"});
+  $("#necklaces").css({"height": shopcontainerheightn + "px"});
+  $("#bracelets").css({"width": shopcontainerwidth + "px"});
+  $("#bracelets").css({"height": shopcontainerheightb + "px"});
+  
+  let size = (shopcontainerwidth - 2) / 3
+  $("#egrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
+  $("#egrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
+  $("#ngrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
+  $("#ngrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
+  $("#bgrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
+  $("#bgrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
 }
