@@ -28,6 +28,8 @@ p#nhead {}
   position: absolute;
   
   left: 60px;
+  
+  height: auto;
 }
 
 #egrid {
