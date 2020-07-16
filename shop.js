@@ -78,4 +78,11 @@ function resize() {
   
   shoptop += 10 + $("#bhead").height();
   $("#bracelets").css({"top": shoptop + "px"});
+  
+  let tileimgsize = $("#e1").height() - 40 - $("#stp").height() - $("#stt").height();
+  $("head").append('<style type="text/css"></style>');
+  var newstylesheet = $("head").children(':last');
+  newstylesheet.html('.shoptileimg{height:tileimgsize'+'px}')
+  newstylesheet.html('.shoptileimg{width:tileimgsize'+'px}')
+  
 }
