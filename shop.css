@@ -87,6 +87,10 @@ p#nhead {}
 #b9 {}
 
 p.shoptiletitle {
+  position: absolute;
+  
+  top: 10px;
+  
   line-height: 30px;
   
   font-size: 30px;
