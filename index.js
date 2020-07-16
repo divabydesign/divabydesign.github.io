@@ -9,10 +9,7 @@ function resize() {
   let top = 30 + $("#htext").height();
   $("#stext").css({"top": top + "px"});
   
-  top += 30 + $("#stext").height();
-  $("#atext").css({"top": top + "px"});
-  
-  top += 15 + $("#atext").height();
+  top += 15 + $("#stext").height();
   $("#1stext").css({"top": top + "px"});
   
   top += 15 + $("#1stext").height();
@@ -22,6 +19,9 @@ function resize() {
   $("#3stext").css({"top": top + "px"});
   
   top += 30 + $("#3stext").height();
+  $("#atext").css({"top": top + "px"});
+  
+  top += 30 + $("#atext").height();
   $("#ctext").css({"top": top + "px"});
   
   let height = 60 + $("#flogo").height();
