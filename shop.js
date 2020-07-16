@@ -56,11 +56,30 @@ function resize() {
   $("#bracelets").css({"width": shopcontainerwidth + "px"});
   $("#bracelets").css({"height": shopcontainerheightb + "px"});
   
-  let size = (shopcontainerwidth - 2) / 3
+  let size = (shopcontainerwidth - 2) / 3;
   $("#egrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
   $("#egrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
   $("#ngrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
   $("#ngrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
   $("#bgrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
   $("#bgrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
+  
+  let top = 60;
+  $("#ehead").css({"top": top + "px"});
+  
+  top += 10 + $("#ehead").height()
+  $("#erings").css({"top": top + "px"});
+  
+  top += 60 + $("#erings").height()
+  $("#nhead").css({"top": top + "px"});
+  
+  top += 10 + $("#nhead").height()
+  $("#necklaces").css({"top": top + "px"});
+  
+  top += 60 + $("#necklaces").height()
+  $("#bhead").css({"top": top + "px"});
+  
+  top += 10 + $("#bhead").height()
+  $("#bracelets").css({"top": top + "px"});
+
 }
