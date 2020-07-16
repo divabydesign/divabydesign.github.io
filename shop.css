@@ -1,9 +1,34 @@
-p.header {}
+p, a {
+  margin: 0;
+  
+  font-family: "LeaugeSpartan";
+  
+  text-decoration: none;
+}
+
+p.header {
+  position: absolute;
+  
+  left: 60px;
+  
+  line-height: 40px;
+  
+  font-size: 40px;
+  font-weight: bold;
+  
+  color: #242424;
+}
+
 p#ehead {}
 p#bhead {}
 p#nhead {}
 #erings {}
-.shopcontainer {}
+
+.shopcontainer {
+  position: absolute;
+  
+  left: 60px;
+}
 
 #egrid {
   display: grid;
