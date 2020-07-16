@@ -64,22 +64,21 @@ function resize() {
   $("#bgrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
   $("#bgrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
   
-  let top = 60;
-  $("#ehead").css({"top": top + "px"});
+  let shoptop = 60;
+  $("#ehead").css({"top": shoptop + "px"});
   
-  top += 10 + $("#ehead").height()
-  $("#erings").css({"top": top + "px"});
+  shoptop += 10 + $("#ehead").height();
+  $("#erings").css({"top": shoptop + "px"});
   
-  top += 60 + $("#erings").height()
-  $("#nhead").css({"top": top + "px"});
+  shoptop += 60 + $("#erings").height();
+  $("#nhead").css({"top": shoptop + "px"});
   
-  top += 10 + $("#nhead").height()
-  $("#necklaces").css({"top": top + "px"});
+  shoptop += 10 + $("#nhead").height();
+  $("#necklaces").css({"top": shoptop + "px"});
   
-  top += 60 + $("#necklaces").height()
-  $("#bhead").css({"top": top + "px"});
+  shoptop += 60 + $("#necklaces").height();
+  $("#bhead").css({"top": shoptop + "px"});
   
-  top += 10 + $("#bhead").height()
-  $("#bracelets").css({"top": top + "px"});
-
+  shoptop += 10 + $("#bhead").height();
+  $("#bracelets").css({"top": shoptop + "px"});
 }
