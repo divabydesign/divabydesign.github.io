@@ -72,3 +72,19 @@ p.shoptiletitle {
   
   color: #242424;
 }
+
+p.shoptileprice {
+  position: relative;
+  
+  bottom: 10px;
+  
+  line-height: 30px;
+  
+  font-size: 30px;
+  
+  color: #242424;
+}
+
+img.shoptileimg {
+  position: relative;
+}
