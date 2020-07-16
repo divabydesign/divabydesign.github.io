@@ -40,46 +40,7 @@ p#nhead {}
   grid-template-areas: "e1 e2 e3" "e4 e5 e6" "e7 e8 e9";
 }
 
-#e1 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#e2 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#e3 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#e4 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#e5 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#e6 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#e7 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#e8 {
-  border: 1px black;
-  border-style: solid;
-}
-#e9 {
+.enb {
   border: 1px black;
   border-style: solid;
 }
@@ -92,102 +53,12 @@ p#nhead {}
   grid-template-areas: "e1 e2 e3" "e4 e5 e6" "e7 e8 e9";
 }
 
-#n1 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#n2 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#n3 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#n4 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#n5 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#n6 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#n7 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#n8 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#n9 {
-  border: 1px black;
-  border-style: solid;
-}
-
 #bracelets {}
 
 #bgrid {
   display: grid;
   gap: 1px 1px;
   grid-template-areas: "e1 e2 e3" "e4 e5 e6" "e7 e8 e9";
-}
-
-#b1 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#b2 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#b3 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#b4 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#b5 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#b6 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#b7 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#b8 {
-  border: 1px black;
-  border-style: solid;
-}
-
-#b9 {
-  border: 1px black;
-  border-style: solid;
 }
 
 p.shoptiletitle {
