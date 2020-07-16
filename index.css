@@ -195,8 +195,6 @@ p#header {
 p#para { 
   position: absolute;
   
-  line-height: 25px;
-  
   font-size: 25px;
   
   color: #242424;
