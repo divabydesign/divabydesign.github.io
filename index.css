@@ -58,7 +58,9 @@ a#3stext {}
 a.nstext {
   position: absolute;
   
-  font-size: 20px;
+  line-height: 30px;
+  
+  font-size: 30px;
   
   color: #242424;
 }
@@ -68,7 +70,9 @@ a#ctext {}
 a.ntext {
   position: absolute;
   
-  font-size: 30px;
+  line-height: 40px;
+  
+  font-size: 40px;
   font-weight: bold;
   
   color: #242424;
