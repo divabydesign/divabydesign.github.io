@@ -50,11 +50,8 @@ function resize() {
   let shopcontainerheightn = $("#pcontent").height() - 120 - $("#nhead").height();
   let shopcontainerheightb = $("#pcontent").height() - 120 - $("#bhead").height();
   $("#erings").css({"width": shopcontainerwidth + "px"});
-  $("#erings").css({"height": shopcontainerheighte + "px"});
   $("#necklaces").css({"width": shopcontainerwidth + "px"});
-  $("#necklaces").css({"height": shopcontainerheightn + "px"});
   $("#bracelets").css({"width": shopcontainerwidth + "px"});
-  $("#bracelets").css({"height": shopcontainerheightb + "px"});
   
   let size = (shopcontainerwidth - 2) / 3;
   $("#egrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
