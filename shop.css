@@ -30,6 +30,8 @@ p#nhead {}
   left: 60px;
   
   height: auto;
+  
+  text-align: center;
 }
 
 #egrid {
