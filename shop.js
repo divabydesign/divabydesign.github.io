@@ -84,6 +84,6 @@ function resize() {
   var newstylesheet = $("head").children(':last');
 
   newstylesheet.html('.shoptileimg{height:' + tileimgsize + 'px}');
-  newstylesheet.html('.shoptileimg{width:' + tileimgsize + 'px}');
+  //newstylesheet.html('.shoptileimg{width:' + tileimgsize + 'px}');
   
 }
