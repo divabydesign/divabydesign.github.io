@@ -3,7 +3,7 @@ function load() {
 }
 
 function resize() {
-  let navtop = 90 + $("#logo").height();
+  let navtop = 60 + $("#logo").height();
   $("#nav").css({"top": navtop + "px"});
   
   let top = 30 + $("#htext").height();
