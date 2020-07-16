@@ -76,7 +76,7 @@ p.shoptiletitle {
 p.shoptileprice {
   position: relative;
   
-  bottom: 10px;
+  bottom: -26px;
   
   line-height: 30px;
   
