@@ -87,4 +87,6 @@ p.shoptileprice {
 
 img.shoptileimg {
   position: relative;
+  
+  top: 20px;
 }
