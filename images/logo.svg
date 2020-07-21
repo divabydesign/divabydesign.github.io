@@ -19,7 +19,7 @@
 
         <style type="text/css">
             @font-face {
-                font-family: Leauge Spartan;
+                font-family: LeaugeSpartan-Bold;
                 src: url('../fonts/LeagueSpartan-Bold.woff');
                 font-weight: bold;
             }
