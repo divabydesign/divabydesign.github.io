@@ -16,5 +16,13 @@
         <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(956.55,0,0,132.975,205.276,783.563)"><stop offset="0" style="stop-color:rgb(235,146,133);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(197,133,235);stop-opacity:1"/></linearGradient>
         <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(702,0,0,147.854,147,654.073)"><stop offset="0" style="stop-color:rgb(235,146,133);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(197,133,235);stop-opacity:1"/></linearGradient>
         <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(988.008,0,0,610.002,3.99172,304.999)"><stop offset="0" style="stop-color:rgb(235,146,133);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(197,133,235);stop-opacity:1"/></linearGradient>
+
+        <style type="text/css">
+            @font-face {
+                font-family: Leauge Spartan;
+                src: url('../fonts/LeagueSpartan-Bold.woff');
+                font-weight: bold;
+            }
+        </style>
     </defs>
 </svg>
