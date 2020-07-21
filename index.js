@@ -22,10 +22,10 @@ function resize() {
   $("#footer").css({"top": footertop + "px"});
   
   let left = ($("#ncontent").width() / 100) * 7.5;
-  $("#1fbar").css({"left": left + "px"});
+  $("#ofbar").css({"left": left + "px"});
   
   left = ($("#ncontent").width() / 100) * 65;
-  $("#2fbar").css({"left": left + "px"});
+  $("#tfbar").css({"left": left + "px"});
   
   let fbartop = ($("#footer").height() / 2) - 2.5;
   $("#ofbar").css({"top": fbartop + "px"});
