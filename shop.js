@@ -12,13 +12,13 @@ function resize() {
   top += 15 + $("#stext").height();
   $("#onestext").css({"top": top + "px"});
   
-  top += 15 + $("#1stext").height();
+  top += 15 + $("#onestext").height();
   $("#twostext").css({"top": top + "px"});
   
-  top += 15 + $("#2stext").height();
+  top += 15 + $("#twostext").height();
   $("#threestext").css({"top": top + "px"});
   
-  top += 30 + $("#3stext").height();
+  top += 30 + $("#threestext").height();
   $("#atext").css({"top": top + "px"});
   
   top += 30 + $("#atext").height();
