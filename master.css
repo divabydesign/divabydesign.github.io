@@ -28,7 +28,7 @@ p, a {
   width: 15%;
   height: 100%;
   
-  background-color: #DBB4CB;
+  background-color: #F5D7F8;
 }
 
 #nav {
@@ -40,10 +40,10 @@ p, a {
 img#logo {
   position: absolute;
   
-  left: 35%;
+  left: 25%;
   Top: 30px;
     
-  width: 30%;
+  width: 50%;
   height: auto;
 }
 
@@ -98,25 +98,28 @@ a:hover:after {
   width: 100%;
 }
 
-#1fbar {}
-#2fbar {}
+#1fbar {
+  background-color: #D762E4;
+}
+
+#2fbar {
+  background-color: #9662E4;
+}
 
 .fbar {
   position: absolute;
   
   width: 27.5%;
   height: 5px;
-  
-  background-color: #242424;
 }
 
 img#flogo {
   position: absolute;
   
-  left: 42.5%;
+  left: 35%;
   Top: 30px;
     
-  width: 15%;
+  width: 30%;
   height: auto;
 }
 
