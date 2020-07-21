@@ -10,13 +10,13 @@ function resize() {
   $("#stext").css({"top": top + "px"});
   
   top += 15 + $("#stext").height();
-  $("#1stext").css({"top": top + "px"});
+  $("#onestext").css({"top": top + "px"});
   
   top += 15 + $("#1stext").height();
-  $("#2stext").css({"top": top + "px"});
+  $("#twostext").css({"top": top + "px"});
   
   top += 15 + $("#2stext").height();
-  $("#3stext").css({"top": top + "px"});
+  $("#threestext").css({"top": top + "px"});
   
   top += 30 + $("#3stext").height();
   $("#atext").css({"top": top + "px"});
@@ -31,14 +31,14 @@ function resize() {
   $("#footer").css({"top": footertop + "px"});
   
   let left = ($("#ncontent").width() / 100) * 7.5;
-  $("#1fbar").css({"left": left + "px"});
+  $("#ofbar").css({"left": left + "px"});
   
   left = ($("#ncontent").width() / 100) * 65;
-  $("#2fbar").css({"left": left + "px"});
+  $("#tfbar").css({"left": left + "px"});
   
   let fbartop = ($("#footer").height() / 2) - 2.5;
-  $("#1fbar").css({"top": fbartop + "px"});
-  $("#2fbar").css({"top": fbartop + "px"});
+  $("#ofbar").css({"top": fbartop + "px"});
+  $("#tfbar").css({"top": fbartop + "px"});
   
   let pcontentleft = $("#ncontent").width() + 5;
   let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
