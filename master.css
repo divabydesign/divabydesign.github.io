@@ -51,9 +51,9 @@ a#htext {}
 a#stext {}
 #stdiv {}
 a#atext {}
-a#1stext {}
-a#2stext {}
-a#3stext {}
+a#onestext {}
+a#twostext {}
+a#threestext {}
 
 a.nstext {
   position: absolute;
@@ -98,11 +98,11 @@ a:hover:after {
   width: 100%;
 }
 
-#1fbar {
+#ofbar {
   background-color: #D762E4;
 }
 
-#2fbar {
+#tfbar {
   background-color: #9662E4;
 }
 
