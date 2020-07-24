@@ -3,27 +3,30 @@ function load() {
 }
 
 function resize() {
-  let viewheightu = $("#ncontent").height() / 100;
+  let textdivider = $("#ncontent").height() / 100) * 6;
+  if (textdivider > 25) {
+    textdivider = 25;
+  }
   
   let navtop = 60 + $("#logo").height();
   $("#nav").css({"top": navtop + "px"});
   
-  let top = viewheightu * 6 + $("#htext").height();
+  let top = textdivider + $("#htext").height();
   $("#stext").css({"top": top + "px"});
   
-  top += viewheightu * 3 + $("#stext").height();
+  top += textdivider / 2 + $("#stext").height();
   $("#onestext").css({"top": top + "px"});
   
-  top += viewheightu * 3 + $("#onestext").height();
+  top += textdivider / 2 + $("#onestext").height();
   $("#twostext").css({"top": top + "px"});
   
-  top += viewheightu * 3 + $("#twostext").height();
+  top += textdivider / 2 + $("#twostext").height();
   $("#threestext").css({"top": top + "px"});
   
-  top += viewheightu * 6 + $("#threestext").height();
+  top += textdivider + $("#threestext").height();
   $("#atext").css({"top": top + "px"});
   
-  top += viewheightu * 6 + $("#atext").height();
+  top += textdivider + $("#atext").height();
   $("#ctext").css({"top": top + "px"});
   
   let height = 60 + $("#flogo").height();
