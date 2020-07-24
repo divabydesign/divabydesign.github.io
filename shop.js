@@ -3,7 +3,7 @@ function load() {
 }
 
 function resize() {
-  let textdivider = $("#ncontent").height() / 100) * 6;
+  let textdivider = ($("#ncontent").height() / 100) * 6;
   if (textdivider > 25) {
     textdivider = 25;
   }
