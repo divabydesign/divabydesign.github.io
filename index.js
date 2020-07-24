@@ -6,13 +6,13 @@ function resize() {
   let navtop = 60 + $("#logo").height();
   $("#nav").css({"top": navtop + "px"});
   
-  let top = ($("#ncontent").height() / 100) * 9 + $("#htext").height();
+  let top = ($("#ncontent").height() / 100) * 6 + $("#htext").height();
   $("#stext").css({"top": top + "px"});
   
-  top += ($("#ncontent").height() / 100) * 9 + $("#stext").height();
+  top += ($("#ncontent").height() / 100) * 6 + $("#stext").height();
   $("#atext").css({"top": top + "px"});
   
-  top += ($("#ncontent").height() / 100) * 9 + $("#atext").height();
+  top += ($("#ncontent").height() / 100) * 6 + $("#atext").height();
   $("#ctext").css({"top": top + "px"});
   
   let height = 60 + $("#flogo").height();
