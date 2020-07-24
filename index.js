@@ -3,16 +3,18 @@ function load() {
 }
 
 function resize() {
+  let viewheightu = $("#ncontent").height() / 100;
+  
   let navtop = 60 + $("#logo").height();
   $("#nav").css({"top": navtop + "px"});
   
-  let top = ($("#ncontent").height() / 100) * 6 + $("#htext").height();
+  let top = viewheightu * 6 + $("#htext").height();
   $("#stext").css({"top": top + "px"});
   
-  top += ($("#ncontent").height() / 100) * 6 + $("#stext").height();
+  top += viewheightu * 6 + $("#stext").height();
   $("#atext").css({"top": top + "px"});
   
-  top += ($("#ncontent").height() / 100) * 6 + $("#atext").height();
+  top += viewheightu * 6 + $("#atext").height();
   $("#ctext").css({"top": top + "px"});
   
   let height = 60 + $("#flogo").height();
