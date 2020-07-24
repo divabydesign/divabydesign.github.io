@@ -6,14 +6,14 @@ function resize() {
   let navtop = 60 + $("#logo").height();
   $("#nav").css({"top": navtop + "px"});
   
-  //let top = 30 + $("#htext").height();
-  //$("#stext").css({"top": top + "px"});
+  let top = ($("#ncontent").height() / 100) * 9 + $("#htext").height();
+  $("#stext").css({"top": top + "px"});
   
-  //top += 30 + $("#stext").height();
-  //$("#atext").css({"top": top + "px"});
+  top += ($("#ncontent").height() / 100) * 9 + $("#stext").height();
+  $("#atext").css({"top": top + "px"});
   
- // top += 30 + $("#atext").height();
-  //$("#ctext").css({"top": top + "px"});
+  top += ($("#ncontent").height() / 100) * 9 + $("#atext").height();
+  $("#ctext").css({"top": top + "px"});
   
   let height = 60 + $("#flogo").height();
   $("#footer").css({"height": height + "px"});
