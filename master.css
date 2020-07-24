@@ -58,7 +58,7 @@ a#threestext {}
 a.nstext {
   position: absolute;
 
-  font-size: 30px;
+  font-size: 4vh;
   
   color: #242424;
 }
@@ -68,7 +68,7 @@ a#ctext {}
 a.ntext {
   position: absolute;
 
-  font-size: 35px;
+  font-size: 4.5vh;
   font-weight: bold;
   
   color: #242424;
