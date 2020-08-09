@@ -45,6 +45,8 @@ function resize() {
   let fbartop = ($("#footer").height() / 2) - 2.5;
   $("#ofbar").css({"top": fbartop + "px"});
   $("#tfbar").css({"top": fbartop + "px"});
+  $("#ofbar").css({"width": ($("#ncontent").width() / 100) * 27.5 + "px"});
+  $("#tfbar").css({"width": ($("#ncontent").width() / 100) * 27.5 + "px"});
   
   let slogantop = 75 + $("#title").height();
   $("#slogan").css({"top": slogantop + "px"});
