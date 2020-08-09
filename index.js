@@ -6,7 +6,6 @@ function resize() {
   let textdivider = ($("#ncontent").height() / 100) * 6;
   if (textdivider > 25) {
     textdivider = 25;
-    console.log($("#pcontent").width());
   }
   
   let navtop = 60 + $("#logo").height();
@@ -57,4 +56,7 @@ function resize() {
   
   texttop = 10 + $("#header").height();
   $("#para").css({"top": texttop + "px"});
+  
+  console.log($("#pcontent").width());
+
 }
