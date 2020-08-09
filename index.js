@@ -30,7 +30,7 @@ function resize() {
   
   if ($("#ncontent").width() > 200) {
     $("#ncontent").css({"width": 200 + "px"});
-    $("#pcontent").css({"width": $("#content").width() - $("#ncontent").width() - $("#divider").width() + "px"});
+    $("#pcontent").css({"width": $("#content").width() - 200 - $("#divider").width() + "px"});
   }
   
   let footertop = $("#ncontent").height() - height;
@@ -65,6 +65,6 @@ function resize() {
   texttop = 10 + $("#header").height();
   $("#para").css({"top": texttop + "px"});
   
-  console.log($("#ncontent").width());
+  console.log($("#content").width());
 
 }
