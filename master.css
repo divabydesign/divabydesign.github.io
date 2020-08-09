@@ -68,7 +68,7 @@ a#ctext {}
 a.ntext {
   position: absolute;
 
-  font-size: 4.5vh;
+  font-size: 2.5vw;
   font-weight: bold;
   
   color: #242424;
