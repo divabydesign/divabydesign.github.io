@@ -47,6 +47,7 @@ function resize() {
   $("#tfbar").css({"top": fbartop + "px"});
   $("#ofbar").css({"width": ($("#ncontent").width() / 100) * 27.5 + "px"});
   $("#tfbar").css({"width": ($("#ncontent").width() / 100) * 27.5 + "px"});
+  $("#flogo").css({"width": ($("#ncontent").width() / 100) * 30 + "px"});
   
   let slogantop = 75 + $("#title").height();
   $("#slogan").css({"top": slogantop + "px"});
