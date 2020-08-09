@@ -41,8 +41,8 @@ function resize() {
   $("#pcontent").css({"left": pcontentleft + "px"});
   $("#pcontent").css({"width": pcontentwidth + "px"});
   
-  if ($("#ncontent").width() > 300) {
-    $("#ncontent").css({"width": 300 + "px"});
+  if ($("#ncontent").width() > 200) {
+    $("#ncontent").css({"width": 200 + "px"});
     $("#pcontent").css({"width": $("#content").width() - $("#ncontent").width() - $("#divider").width() + "px"});
   }
   
