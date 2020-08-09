@@ -35,6 +35,7 @@ function resize() {
   if ($("#ncontent").width() > 200) {
     $("#ncontent").css({"width": 200 + "px"});
     $("#pcontent").css({"width": $("#content").width() - 200 - $("#divider").width() + "px"});
+    $("#pcontent").css({"left": $("#ncontent").width() + $("#divider").width() + "px"});
   }
   
   let footertop = $("#ncontent").height() - height;
