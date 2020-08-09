@@ -39,7 +39,11 @@ function resize() {
   let pcontentleft = $("#ncontent").width() + 5;
   let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
   $("#pcontent").css({"left": pcontentleft + "px"});
-  $("#pcontent").css({"width": pcontentwidth + "px"});
+  
+  if (pcontentwidth < 1100):
+    $("#pcontent").css({"width": pcontentwidth + "px"});
+  else:
+    $("#pcontent").css({"width": 1100 + "px"});
   
   let slogantop = 75 + $("#title").height();
   $("#slogan").css({"top": slogantop + "px"});
