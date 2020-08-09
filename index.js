@@ -62,6 +62,6 @@ function resize() {
   texttop = 10 + $("#header").height();
   $("#para").css({"top": texttop + "px"});
   
-  console.log($("#pcontent").width());
+  console.log($("#ncontent").width());
 
 }
