@@ -28,6 +28,10 @@ function resize() {
   $("#pcontent").css({"left": pcontentleft + "px"});
   $("#pcontent").css({"width": pcontentwidth + "px"});
   
+  console.log($("#content").width());
+  $("#ncontent").css({"width": (($("#content").width() / 100) * 15) + "px"});
+  console.log($("#ncontent").width());
+  
   if ($("#ncontent").width() > 200) {
     $("#ncontent").css({"width": 200 + "px"});
     $("#pcontent").css({"width": $("#content").width() - 200 - $("#divider").width() + "px"});
@@ -65,6 +69,5 @@ function resize() {
   texttop = 10 + $("#header").height();
   $("#para").css({"top": texttop + "px"});
   
-  console.log($("#content").width());
 
 }
