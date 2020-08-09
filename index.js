@@ -23,6 +23,16 @@ function resize() {
   let height = 60 + $("#flogo").height();
   $("#footer").css({"height": height + "px"});
   
+  let pcontentleft = $("#ncontent").width() + 5;
+  let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
+  $("#pcontent").css({"left": pcontentleft + "px"});
+  $("#pcontent").css({"width": pcontentwidth + "px"});
+  
+  if ($("#ncontent").width() > 200) {
+    $("#ncontent").css({"width": 200 + "px"});
+    $("#pcontent").css({"width": $("#content").width() - $("#ncontent").width() - $("#divider").width() + "px"});
+  }
+  
   let footertop = $("#ncontent").height() - height;
   $("#footer").css({"top": footertop + "px"});
   
@@ -35,16 +45,6 @@ function resize() {
   let fbartop = ($("#footer").height() / 2) - 2.5;
   $("#ofbar").css({"top": fbartop + "px"});
   $("#tfbar").css({"top": fbartop + "px"});
-  
-  let pcontentleft = $("#ncontent").width() + 5;
-  let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
-  $("#pcontent").css({"left": pcontentleft + "px"});
-  $("#pcontent").css({"width": pcontentwidth + "px"});
-  
-  if ($("#ncontent").width() > 200) {
-    $("#ncontent").css({"width": 200 + "px"});
-    $("#pcontent").css({"width": $("#content").width() - $("#ncontent").width() - $("#divider").width() + "px"});
-  }
   
   let slogantop = 75 + $("#title").height();
   $("#slogan").css({"top": slogantop + "px"});
