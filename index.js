@@ -20,9 +20,6 @@ function resize() {
   top += textdivider + $("#atext").height();
   $("#ctext").css({"top": top + "px"});
   
-  let height = 60 + $("#flogo").height();
-  $("#footer").css({"height": height + "px"});
-  
   let pcontentleft = $("#ncontent").width() + 5;
   let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
   $("#pcontent").css({"left": pcontentleft + "px"});
@@ -53,6 +50,9 @@ function resize() {
   $("#ofbar").css({"width": ($("#ncontent").width() / 100) * 27.5 + "px"});
   $("#tfbar").css({"width": ($("#ncontent").width() / 100) * 27.5 + "px"});
   $("#flogo").css({"width": ($("#ncontent").width() / 100) * 30 + "px"});
+  
+  let height = 60 + $("#flogo").height();
+  $("#footer").css({"height": height + "px"});
   
   let slogantop = 75 + $("#title").height();
   $("#slogan").css({"top": slogantop + "px"});
