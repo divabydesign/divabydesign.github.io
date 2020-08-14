@@ -4,10 +4,11 @@ function load() {
 
 function resize() {
   let textdivider = ($("#ncontent").height() / 100) * 6;
+  console.log(textdivider);
   if (textdivider > 25) {
     textdivider = 25;
   }
-  
+  console.log(textdivider);
   let navtop = 60 + $("#logo").height();
   $("#nav").css({"top": navtop + "px"});
   
