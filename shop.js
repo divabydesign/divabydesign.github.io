@@ -72,11 +72,11 @@ function resize() {
   
   let size = (shopcontainerwidth - 2) / 3;
   $("#egrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
-  $("#egrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
+  $("#egrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px " size + "px " + size + "px " + size + "px " size + "px " + size + "px"});
   $("#ngrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
   $("#ngrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
   $("#bgrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
-  $("#bgrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
+  $("#bgrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px " size + "px " + size + "px " + size + "px " size + "px " + size + "px " + size + "px " size + "px " + size + "px"});
   
   let shoptop = 60;
   $("#ehead").css({"top": shoptop + "px"});
