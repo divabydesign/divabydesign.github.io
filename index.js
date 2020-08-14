@@ -21,11 +21,6 @@ function resize() {
   top += textdivider + $("#atext").height();
   $("#ctext").css({"top": top + "px"});
   
-  $("#htext").css({"left": ((200 - $("#htext").width()) / 2) + "px"});
-  $("#stext").css({"left": ((200 - $("#stext").width()) / 2) + "px"});
-  $("#atext").css({"left": ((200 - $("#atext").width()) / 2) + "px"});
-  $("#ctext").css({"left": ((200 - $("#ctext").width()) / 2) + "px"});
-  
   let pcontentleft = $("#ncontent").width() + 5;
   let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
   $("#pcontent").css({"left": pcontentleft + "px"});
@@ -75,5 +70,9 @@ function resize() {
   texttop = 10 + $("#header").height();
   $("#para").css({"top": texttop + "px"});
   
+  $("#htext").css({"left": (($("#ncontent").width() - $("#htext").width()) / 2) + "px"});
+  $("#stext").css({"left": (($("#ncontent").width() - $("#stext").width()) / 2) + "px"});
+  $("#atext").css({"left": (($("#ncontent").width() - $("#atext").width()) / 2) + "px"});
+  $("#ctext").css({"left": (($("#ncontent").width() - $("#ctext").width()) / 2) + "px"});
 
 }
