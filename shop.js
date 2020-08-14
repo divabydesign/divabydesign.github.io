@@ -105,6 +105,11 @@ function resize() {
   
   $("#htext").css({"left": (($("#ncontent").width() - $("#htext").width()) / 2) + "px"});
   $("#stext").css({"left": (($("#ncontent").width() - $("#stext").width()) / 2) + "px"});
+  
+  $("#onestext").css({"left": (($("#ncontent").width() - $("#onestext").width()) / 2) + "px"});
+  $("#twostext").css({"left": (($("#ncontent").width() - $("#twostext").width()) / 2) + "px"});
+  $("#threestext").css({"left": (($("#ncontent").width() - $("#threestext").width()) / 2) + "px"});
+  
   $("#atext").css({"left": (($("#ncontent").width() - $("#atext").width()) / 2) + "px"});
   $("#ctext").css({"left": (($("#ncontent").width() - $("#ctext").width()) / 2) + "px"});
 }
