@@ -5,8 +5,8 @@ function load() {
 function resize() {
   let textdivider = ($("#ncontent").height() / 100) * 6;
   console.log(textdivider);
-  if (textdivider > 35) {
-    textdivider = 35;
+  if (textdivider > 55) {
+    textdivider = 55;
   }
   console.log(textdivider);
   let navtop = 60 + $("#logo").height();
