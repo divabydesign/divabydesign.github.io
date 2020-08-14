@@ -55,6 +55,7 @@ p#para {
   position: absolute;
   
   font-size: 25px;
+  font-family: 'Roboto', sans-serif;
   
   color: #242424;
 }
