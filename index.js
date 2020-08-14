@@ -5,8 +5,8 @@ function load() {
 function resize() {
   let textdivider = ($("#ncontent").height() / 100) * 6;
   console.log(textdivider);
-  if (textdivider > 25) {
-    textdivider = 25;
+  if (textdivider > 35) {
+    textdivider = 35;
   }
   console.log(textdivider);
   let navtop = 60 + $("#logo").height();
@@ -31,9 +31,7 @@ function resize() {
   $("#pcontent").css({"left": pcontentleft + "px"});
   $("#pcontent").css({"width": pcontentwidth + "px"});
   
-  console.log($("#content").width());
   $("#ncontent").css({"width": (($("#content").width() / 100) * 15) + "px"});
-  console.log($("#ncontent").width());
   
   if ($("#ncontent").width() > 200) {
     $("#ncontent").css({"width": 200 + "px"});
