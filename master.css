@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   margin: 0;
   
@@ -10,7 +13,7 @@ body {
 p, a {
   margin: 0;
   
-  font-family: "LeaugeSpartan";
+  font-family: 'Vidaloka', serif;
   
   text-decoration: none;
 }
