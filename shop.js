@@ -76,7 +76,7 @@ function resize() {
   $("#ngrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
   $("#ngrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px"});
   $("#bgrid").css({"grid-template-columns": size + "px " + size + "px " + size + "px"});
-  $("#bgrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px " size + "px " + size + "px " + size + "px " size + "px " + size + "px " + size + "px " size + "px " + size + "px"});
+  $("#bgrid").css({"grid-template-rows": size + "px " + size + "px " + size + "px " size + "px " + size + "px " + size + "px " size + "px " + size + "px " + size + "px " size + "px"});
   
   let shoptop = 60;
   $("#ehead").css({"top": shoptop + "px"});
