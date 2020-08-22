@@ -18,9 +18,6 @@ function resize() {
   top += textdivider + $("#stext").height();
   $("#atext").css({"top": top + "px"});
   
-  top += textdivider + $("#atext").height();
-  $("#ctext").css({"top": top + "px"});
-  
   let pcontentleft = $("#ncontent").width() + 5;
   let pcontentwidth = ($("#content").width() / 100) * 85 - 5;
   $("#pcontent").css({"left": pcontentleft + "px"});
